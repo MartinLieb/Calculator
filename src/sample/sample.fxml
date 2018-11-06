@@ -18,8 +18,8 @@
    </rowConstraints>
    <children>
       <TextField fx:id="talDisplay" />
-      <Button fx:id="plusbutton" mnemonicParsing="false" onAction="#plusMetode" text="+" GridPane.rowIndex="1" />
-      <Button fx:id="equalsbutton" mnemonicParsing="false" onAction="#equalsMetode" text="=" GridPane.rowIndex="2" />
-      <Button fx:id="CheckStatus" mnemonicParsing="false" onAction="#statusMetode" text="Din status" textFill="#ee00ff" GridPane.rowIndex="3" />
+      <Button fx:id="plusbutton" mnemonicParsing="false" onAction="#plusMetode" text="+" textFill="#ee00ff" GridPane.rowIndex="1" />
+      <Button fx:id="equalsbutton" mnemonicParsing="false" onAction="#equalsMetode" text="=" textFill="#ee00ff" GridPane.rowIndex="2" />
+      <Button fx:id="CheckStatus" mnemonicParsing="false" onAction="#statusMetode" text="er der fart på?" textFill="#ee00ff" GridPane.rowIndex="3" />
    </children>
 </GridPane>

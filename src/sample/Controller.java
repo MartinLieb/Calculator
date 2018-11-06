@@ -33,10 +33,15 @@ public class Controller {
         talDisplay.clear();
 
         // ligger alle tal sammen i arrayet
-        for (String number: numbersArray) {
-            System.out.println(number);
-            resultat += Integer.parseInt(number);
+        try {
+            for (String number : numbersArray) {
+                System.out.println(number);
+                resultat += Integer.parseInt(number);
 
+            }
+        }
+        catch (Exception e) {
+           System.out.println("Den går ikke makker " + e.getClass());
         }
 
         // sætter resultatet i displayet
@@ -48,6 +53,6 @@ public class Controller {
     }
 
     public void statusMetode(ActionEvent actionEvent) {
-        System.out.println("Du er fucking awesome!");
+        System.out.println("SKKRRRRRRRRRTTTTT!");
     }
 }
